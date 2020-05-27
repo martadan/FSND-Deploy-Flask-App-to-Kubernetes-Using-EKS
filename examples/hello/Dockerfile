@@ -1,3 +1,3 @@
-FROM  jessie-slim 
+FROM  python:stretch
 
 ENTRYPOINT ["echo", "hello world"]
