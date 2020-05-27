@@ -116,6 +116,6 @@ def _get_jwt(user_data):
 
 
 if __name__ == '__main__':
-    # this does not work when running with simple flask command (python main.py)
-    # APP.run(host='127.0.0.1', port=8080, debug=True)
-    APP.run(host='0.0.0.0', port=8080, debug=True)
+    # host=127.0.0.1 does not work when running with simple flask command (python main.py)
+    APP.run(host='127.0.0.1', port=8080, debug=True)
+    # APP.run(host='0.0.0.0', port=8080, debug=True)
