@@ -1,5 +1,4 @@
 pyjwt
 flask==1.0
 gunicorn
-pytest==5.3.0
-typing
+pytest==4.6.0
